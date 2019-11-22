@@ -1,8 +1,8 @@
 class Triangle
-  def initialize(left, right, bottom)
-    @left = left
-    @right = right
-    @bottom = bottom
+  def initialize(side_one, side_two, side_three)
+    @side_one = side_one
+    @side_two = side_two
+    @side_three = side_three
   end
 
   def kind
