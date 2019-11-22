@@ -1,3 +1,7 @@
 class Triangle
-  # write code here
+  def initialize(left, right, bottom)
+    @left = left
+    @right = right
+    @bottom = bottom
+  end
 end
