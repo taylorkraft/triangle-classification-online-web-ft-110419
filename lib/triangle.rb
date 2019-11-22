@@ -10,4 +10,8 @@ class Triangle
     :isosceles
     :scalene
   end
+
+  class TriangleError < StandardError
+    
+  end
 end
