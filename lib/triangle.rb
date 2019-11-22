@@ -4,4 +4,10 @@ class Triangle
     @right = right
     @bottom = bottom
   end
+
+  def kind
+    :equilateral
+    :isosceles
+    :scalene
+  end
 end
